@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'AdobeBlank';
+  src: url("adobe-blank/AdobeBlank.eot");
+  src: url("adobe-blank/AdobeBlank.eot?#iefix") format("embedded-opentype"), url("adobe-blank/AdobeBlank.woff") format("woff"), url("adobe-blank/AdobeBlank.ttf") format("truetype"), url("adobe-blank/AdobeBlank.svg#AdobeBlank") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+input[type=date] {
+  font-family: 'AdobeBlank';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  height: 18px;
+  margin-left: -5px;
+  padding: 5px;
+  outline: none;
+  text-shadow: inherit;
+  color: inherit;
+  width: 160px; }
+
+::-webkit-datetime-edit-year-field:after,
+::-webkit-datetime-edit-month-field:after,
+::-webkit-datetime-edit-day-field:after {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+  padding-right: 3px; }
+
+input[data-day="0"]::-webkit-datetime-edit-day-field:after {
+  content: "00"; }
+
+input[data-day="1"]::-webkit-datetime-edit-day-field:after {
+  content: "01"; }
+
+input[data-day="2"]::-webkit-datetime-edit-day-field:after {
+  content: "02"; }
+
+input[data-day="3"]::-webkit-datetime-edit-day-field:after {
+  content: "03"; }
+
+input[data-day="4"]::-webkit-datetime-edit-day-field:after {
+  content: "04"; }
+
+input[data-day="5"]::-webkit-datetime-edit-day-field:after {
+  content: "05"; }
+
+input[data-day="6"]::-webkit-datetime-edit-day-field:after {
+  content: "06"; }
+
+input[data-day="7"]::-webkit-datetime-edit-day-field:after {
+  content: "07"; }
+
+input[data-day="8"]::-webkit-datetime-edit-day-field:after {
+  content: "08"; }
+
+input[data-day="9"]::-webkit-datetime-edit-day-field:after {
+  content: "09"; }
+
+input[data-day="10"]::-webkit-datetime-edit-day-field:after {
+  content: "10"; }
+
+input[data-day="11"]::-webkit-datetime-edit-day-field:after {
+  content: "11"; }
+
+input[data-day="12"]::-webkit-datetime-edit-day-field:after {
+  content: "12"; }
+
+input[data-day="13"]::-webkit-datetime-edit-day-field:after {
+  content: "13"; }
+
+input[data-day="14"]::-webkit-datetime-edit-day-field:after {
+  content: "14"; }
+
+input[data-day="15"]::-webkit-datetime-edit-day-field:after {
+  content: "15"; }
+
+input[data-day="16"]::-webkit-datetime-edit-day-field:after {
+  content: "16"; }
+
+input[data-day="17"]::-webkit-datetime-edit-day-field:after {
+  content: "17"; }
+
+input[data-day="18"]::-webkit-datetime-edit-day-field:after {
+  content: "18"; }
+
+input[data-day="19"]::-webkit-datetime-edit-day-field:after {
+  content: "19"; }
+
+input[data-day="20"]::-webkit-datetime-edit-day-field:after {
+  content: "20"; }
+
+input[data-day="21"]::-webkit-datetime-edit-day-field:after {
+  content: "21"; }
+
+input[data-day="22"]::-webkit-datetime-edit-day-field:after {
+  content: "22"; }
+
+input[data-day="23"]::-webkit-datetime-edit-day-field:after {
+  content: "23"; }
+
+input[data-day="24"]::-webkit-datetime-edit-day-field:after {
+  content: "24"; }
+
+input[data-day="25"]::-webkit-datetime-edit-day-field:after {
+  content: "25"; }
+
+input[data-day="26"]::-webkit-datetime-edit-day-field:after {
+  content: "26"; }
+
+input[data-day="27"]::-webkit-datetime-edit-day-field:after {
+  content: "27"; }
+
+input[data-day="28"]::-webkit-datetime-edit-day-field:after {
+  content: "28"; }
+
+input[data-day="29"]::-webkit-datetime-edit-day-field:after {
+  content: "29"; }
+
+input[data-day="30"]::-webkit-datetime-edit-day-field:after {
+  content: "30"; }
+
+input[data-day="31"]::-webkit-datetime-edit-day-field:after {
+  content: "31"; }
+
+input[data-month="1"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "01"; }
+
+input[data-month="2"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "02"; }
+
+input[data-month="3"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "03"; }
+
+input[data-month="4"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "04"; }
+
+input[data-month="5"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "05"; }
+
+input[data-month="6"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "06"; }
+
+input[data-month="7"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "07"; }
+
+input[data-month="8"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "08"; }
+
+input[data-month="9"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "09"; }
+
+input[data-month="10"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "10"; }
+
+input[data-month="11"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "11"; }
+
+input[data-month="12"][data-style="reg"]::-webkit-datetime-edit-month-field:after {
+  content: "12"; }
+
+input[data-month="1"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Jan"; }
+
+input[data-month="2"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Feb"; }
+
+input[data-month="3"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Mar"; }
+
+input[data-month="4"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Apr"; }
+
+input[data-month="5"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "May"; }
+
+input[data-month="6"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Jun"; }
+
+input[data-month="7"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Jul"; }
+
+input[data-month="8"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Aug"; }
+
+input[data-month="9"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Sep"; }
+
+input[data-month="10"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Oct"; }
+
+input[data-month="11"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Nov"; }
+
+input[data-month="12"][data-style="en"]::-webkit-datetime-edit-month-field:after {
+  content: "Dec"; }
+
+input[data-month="1"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "jan"; }
+
+input[data-month="2"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "fev"; }
+
+input[data-month="3"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "mar"; }
+
+input[data-month="4"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "avr"; }
+
+input[data-month="5"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "mai"; }
+
+input[data-month="6"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "jun"; }
+
+input[data-month="7"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "jul"; }
+
+input[data-month="8"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "aou"; }
+
+input[data-month="9"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "sep"; }
+
+input[data-month="10"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "oct"; }
+
+input[data-month="11"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "nov"; }
+
+input[data-month="12"][data-style="fr"]::-webkit-datetime-edit-month-field:after {
+  content: "dec"; }
+
+input[data-year="2000"]::-webkit-datetime-edit-year-field:after {
+  content: "2000"; }
+
+input[data-year="2001"]::-webkit-datetime-edit-year-field:after {
+  content: "2001"; }
+
+input[data-year="2002"]::-webkit-datetime-edit-year-field:after {
+  content: "2002"; }
+
+input[data-year="2003"]::-webkit-datetime-edit-year-field:after {
+  content: "2003"; }
+
+input[data-year="2004"]::-webkit-datetime-edit-year-field:after {
+  content: "2004"; }
+
+input[data-year="2005"]::-webkit-datetime-edit-year-field:after {
+  content: "2005"; }
+
+input[data-year="2006"]::-webkit-datetime-edit-year-field:after {
+  content: "2006"; }
+
+input[data-year="2007"]::-webkit-datetime-edit-year-field:after {
+  content: "2007"; }
+
+input[data-year="2008"]::-webkit-datetime-edit-year-field:after {
+  content: "2008"; }
+
+input[data-year="2009"]::-webkit-datetime-edit-year-field:after {
+  content: "2009"; }
+
+input[data-year="2010"]::-webkit-datetime-edit-year-field:after {
+  content: "2010"; }
+
+input[data-year="2011"]::-webkit-datetime-edit-year-field:after {
+  content: "2011"; }
+
+input[data-year="2012"]::-webkit-datetime-edit-year-field:after {
+  content: "2012"; }
+
+input[data-year="2013"]::-webkit-datetime-edit-year-field:after {
+  content: "2013"; }
+
+input[data-year="2014"]::-webkit-datetime-edit-year-field:after {
+  content: "2014"; }
+
+input[data-year="2015"]::-webkit-datetime-edit-year-field:after {
+  content: "2015"; }
+
+input[data-year="2016"]::-webkit-datetime-edit-year-field:after {
+  content: "2016"; }
+
+input[data-year="2017"]::-webkit-datetime-edit-year-field:after {
+  content: "2017"; }
+
+input[data-year="2018"]::-webkit-datetime-edit-year-field:after {
+  content: "2018"; }
+
+input[data-year="2019"]::-webkit-datetime-edit-year-field:after {
+  content: "2019"; }
+
+input[data-year="2020"]::-webkit-datetime-edit-year-field:after {
+  content: "2020"; }
+
+input[data-year="2021"]::-webkit-datetime-edit-year-field:after {
+  content: "2021"; }
+
+input[data-year="2022"]::-webkit-datetime-edit-year-field:after {
+  content: "2022"; }
+
+input[data-year="2023"]::-webkit-datetime-edit-year-field:after {
+  content: "2023"; }
+
+input[data-year="2024"]::-webkit-datetime-edit-year-field:after {
+  content: "2024"; }
+
+input[data-year="2025"]::-webkit-datetime-edit-year-field:after {
+  content: "2025"; }
+
+input[data-year="2026"]::-webkit-datetime-edit-year-field:after {
+  content: "2026"; }
+
+input[data-year="2027"]::-webkit-datetime-edit-year-field:after {
+  content: "2027"; }
+
+input[data-year="2028"]::-webkit-datetime-edit-year-field:after {
+  content: "2028"; }
+
+input[data-year="2029"]::-webkit-datetime-edit-year-field:after {
+  content: "2029"; }
+
+input[data-year="2030"]::-webkit-datetime-edit-year-field:after {
+  content: "2030"; }
+
+input[data-year="2031"]::-webkit-datetime-edit-year-field:after {
+  content: "2031"; }
+
+input[data-year="2032"]::-webkit-datetime-edit-year-field:after {
+  content: "2032"; }
+
+input[data-year="2033"]::-webkit-datetime-edit-year-field:after {
+  content: "2033"; }
+
+input[data-year="2034"]::-webkit-datetime-edit-year-field:after {
+  content: "2034"; }
+
+input[data-year="2035"]::-webkit-datetime-edit-year-field:after {
+  content: "2035"; }
+
+input[data-year="2036"]::-webkit-datetime-edit-year-field:after {
+  content: "2036"; }
+
+input[data-year="2037"]::-webkit-datetime-edit-year-field:after {
+  content: "2037"; }
+
+input[data-year="2038"]::-webkit-datetime-edit-year-field:after {
+  content: "2038"; }
+
+input[data-year="2039"]::-webkit-datetime-edit-year-field:after {
+  content: "2039"; }
+
+input[data-year="2040"]::-webkit-datetime-edit-year-field:after {
+  content: "2040"; }
+
+input[data-year="2041"]::-webkit-datetime-edit-year-field:after {
+  content: "2041"; }
+
+input[data-year="2042"]::-webkit-datetime-edit-year-field:after {
+  content: "2042"; }
+
+input[data-year="2043"]::-webkit-datetime-edit-year-field:after {
+  content: "2043"; }
+
+input[data-year="2044"]::-webkit-datetime-edit-year-field:after {
+  content: "2044"; }
+
+input[data-year="2045"]::-webkit-datetime-edit-year-field:after {
+  content: "2045"; }
+
+input[data-year="2046"]::-webkit-datetime-edit-year-field:after {
+  content: "2046"; }
+
+input[data-year="2047"]::-webkit-datetime-edit-year-field:after {
+  content: "2047"; }
+
+input[data-year="2048"]::-webkit-datetime-edit-year-field:after {
+  content: "2048"; }
+
+input[data-year="2049"]::-webkit-datetime-edit-year-field:after {
+  content: "2049"; }
+
+input[data-year="2050"]::-webkit-datetime-edit-year-field:after {
+  content: "2050"; }
+
+input[data-day="NaN"]::-webkit-datetime-edit-day-field:after {
+  content: "--"; }
+
+input[data-month="NaN"]::-webkit-datetime-edit-month-field:after {
+  content: "---"; }
+
+input[data-year="0"]::-webkit-datetime-edit-year-field:after {
+  content: "----"; }
+
+/*# sourceMappingURL=custom-input-date.css.map */

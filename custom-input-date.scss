@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'AdobeBlank';
+    src: url('adobe-blank/AdobeBlank.eot');
+    src: url('adobe-blank/AdobeBlank.eot?#iefix') format('embedded-opentype'),
+        url('adobe-blank/AdobeBlank.woff') format('woff'),
+        url('adobe-blank/AdobeBlank.ttf') format('truetype'),
+        url('adobe-blank/AdobeBlank.svg#AdobeBlank') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[type=date] {
+    font-family: 'AdobeBlank'; //Essentially hides the original shadow elements of the input 
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    height: 18px;
+    margin-left: -5px;
+    padding: 5px;
+    outline: none;
+    text-shadow: inherit;
+    color: inherit;
+    width: 160px;
+}
+
+// Set a visible font for the :after pseudo-elements
+::-webkit-datetime-edit-year-field:after,
+::-webkit-datetime-edit-month-field:after,
+::-webkit-datetime-edit-day-field:after {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+    padding-right: 3px;
+}
+
+// Re-apply the day #
+@for $day from 0 through 31 {
+    input[data-day="#{$day}"]::-webkit-datetime-edit-day-field:after {
+        @if $day < 10 {
+            $day: unquote('0' + $day);
+        }
+        content: "#{$day}";
+    }
+}
+
+// A variety of month formats
+$months: '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12';
+@each $month in $months {
+    $i: index($months, $month);
+    
+    input[data-month="#{$i}"][data-style="reg"]::-webkit-datetime-edit-month-field:after { 
+        content: "#{$month}";
+    }
+}
+
+$months: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec;
+@each $month in $months {
+    $i: index($months, $month);
+    
+    input[data-month="#{$i}"][data-style="en"]::-webkit-datetime-edit-month-field:after { 
+        content: "#{$month}";
+    }
+}
+
+$months: jan, fev, mar, avr, mai, jun, jul, aou, sep, oct, nov, dec;
+@each $month in $months {
+    $i: index($months, $month);
+    
+    input[data-month="#{$i}"][data-style="fr"]::-webkit-datetime-edit-month-field:after { 
+        content: "#{$month}";
+    }
+}
+
+// Re-apply the year
+@for $year from 2000 through 2050 {
+    input[data-year="#{$year}"]::-webkit-datetime-edit-year-field:after {
+        content: "#{$year}";
+    }
+}
+
+// Re-specify blank input
+input[data-day="NaN"]::-webkit-datetime-edit-day-field:after {
+    content: "--";
+}
+input[data-month="NaN"]::-webkit-datetime-edit-month-field:after {
+    content: "---";
+}
+input[data-year="0"]::-webkit-datetime-edit-year-field:after {
+    content: "----";
+}    

@@ -1,4 +1,4 @@
-;$(function($){
+;(function($){
     // Apply year, month and day to 
     // css-accessible data attributes on the inputs
     function dateInputFormats() { 
@@ -15,5 +15,6 @@
     }
 
     $(dateInputFormats);
+
     $('input[type=date]').change(dateInputFormats);
 })(jQuery);

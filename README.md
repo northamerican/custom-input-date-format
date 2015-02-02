@@ -1,6 +1,8 @@
 # custom input date format
 Experimental changing of input type=date formatting.
 
+<a href="https://cdn.rawgit.com/north-is-northwest/custom-input-date-format/master/index.html">Demo</a>
+
 ###Supported on
 Windows Chrome, Mac Chrome + <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#compat-desktop">browsers that may support it.</a>
 

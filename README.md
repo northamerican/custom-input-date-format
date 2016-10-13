@@ -1,4 +1,4 @@
-2016 notice: Recent versions of Chrome no longer allow `::before` and `::after` pseudo-selectors on shadow elements, breaking this example.
+2016 notice: Recent versions of Chrome no longer allow `::before` and `::after` pseudo-selectors on shadow elements, breaking this example. A different strategy would have to be used, if possible. 
 
 # custom input date format
 Experimental changing of input type=date formatting.
